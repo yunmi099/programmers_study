@@ -7,7 +7,6 @@ const rl = readline.createInterface({
 
 let array = [];
 
-// 해당 레일 순서대로 일했을 때 최소 무게 구하기
 function simulate(array, basket_weight, works) {
   let weight_sum = 0; // 총 택배 무게
   let basket = 0; // 현재 시점 바구니 무게 합
